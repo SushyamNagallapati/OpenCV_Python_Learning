@@ -11,7 +11,7 @@ def mouseClick(event, x, y, flags, parameters):
     if event == cv2.EVENT_LBUTTONDOWN:
         circles[counter] = x, y
         counter = counter + 1
-        print(circles)
+        print(circles) 
 
 # Read the Image
 image = cv2.imread("Resources/Cards.jpg")
