@@ -55,5 +55,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
+
 cap.release() #-> Always call cap.release() at the end of your code that reads frames from a video to prevent potential resource leaks
 cv2.destroyAllWindows()
